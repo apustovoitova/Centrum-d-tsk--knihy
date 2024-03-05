@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <title>Document</title>
 </head>
@@ -276,20 +275,21 @@
             </div>
         </div>
     </footer>
-    <script>
-        var Swiper = new Swiper(".mySwiper", {
-            spaceBetween: 30,
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-            pagination: {
-                el: ".swiper-pagination",
-            },
-            mousewhell: true,
-            Keyboard: true
-        })
-    </script>
+
 </body>
 
 </html>
+<script>
+    var Swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+            el: ".swiper-pagination",
+        },
+        mousewhell: true,
+        Keyboard: true
+    })
+</script>
