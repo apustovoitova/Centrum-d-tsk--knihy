@@ -1,9 +1,3 @@
-@font-face {
-    font-family: Quicksand;
-    src: url("../fonts/Quicksand-Bold.ttf");
-    src: url("../fonts/Quicksand-SemiBold.ttf");
-}
-
 html,
 body {
 
@@ -62,6 +56,14 @@ li {
     display: inline-block;
     margin-right: 40px;
 }
+
+.nav-menu,
+.nav-menu li,
+.nav-menu li a {
+    font-size: 18px;
+    font-weight: 600;
+}
+
 
 .header-button {
     border: none;
@@ -205,8 +207,11 @@ li {
     margin: 0px 0px 10px 16px;
     position: relative;
     background-repeat: no-repeat;
+}
 
-
+.content__text {
+    font-weight: 500;
+    font-size: 16px;
 }
 
 .data::before {
@@ -239,8 +244,12 @@ li {
     border-radius: 4px;
     color: #2E3D80;
     cursor: pointer;
-    background-color: #fff
+    font-weight: 700;
+    font-size: 16px;
+    font-family: Quicksand, sans-serif;
 }
+
+
 
 .page-step-2__container {
     position: relative;
@@ -292,8 +301,7 @@ li {
     z-index: -1;
     font-size: 16px;
     font-weight: 600;
-    font-size: 16px;
-    font-weight: 600;
+    color: #2E3D80;
     padding-left: 10px;
     padding-bottom: 10px;
 }
@@ -310,6 +318,7 @@ li {
 .content__title {
     font-size: 16px;
     font-weight: 600;
+    color: #2E3D80;
 }
 
 .data-line::after {
@@ -399,13 +408,15 @@ h2 {
     margin-bottom: 11px;
 }
 
+.footer-title {
+    color: #FDEBEB;
+}
+
 .footer-aboutus {
     color: #fff;
     font-size: 14px;
     font-weight: 500;
 }
-
-
 
 .info__email {
     color: #fff;
@@ -432,4 +443,5 @@ h2 {
     height: 27px;
     text-align: center;
     line-height: 20px;
+    color: #FDEBEB;
 }

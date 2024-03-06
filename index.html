@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap">
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./index.js"></script>
     <title>Centrum české dětské knihy</title>
 </head>
 
@@ -153,7 +155,7 @@
                     </a>
                 </div>
             </div>
-            <button class="btn">Všechny akce</button>
+            <button class="btn btn_02">Všechny akce</button>
         </section>
         <section class="page-step-3__container">
             <h1 class="container__item-name">Z blogu</h1>
@@ -211,7 +213,7 @@
                     </div>
                 </div>
             </div>
-            <button class="btn">Další články</button>
+            <button class="btn btn_03">Další články</button>
         </section>
         <div class="description__info">
             <div class="info__flex">
@@ -243,7 +245,7 @@
                     <img class="footer-logo" src="images/footerlogo.png" alt="Logo">
                 </div>
                 <div class="footer-item">
-                    <h2>Informace</h2>
+                    <h2 class="footer-title">Informace</h2>
                     <ul class="footer-list">
                         <li><a class="footer-aboutus" href="#">O nás</a></li>
                         <li><a class="footer-aboutus" href="#">Přehled akcí</a></li>
@@ -254,14 +256,14 @@
                     </ul>
                 </div>
                 <div class="footer-item">
-                    <h2>Užitečné informace</h2>
+                    <h2 class="footer-title">Užitečné informace</h2>
                     <ul class="footer-list">
                         <li><a class="footer-aboutus" href="#">Obchodní podmínky</a></li>
                         <li><a class="footer-aboutus" href="#">Podmínky ochrany osobních údajů</a></li>
                     </ul>
                 </div>
                 <div class="footer-item">
-                    <h2>Kontakty</h2>
+                    <h2 class="footer-title">Kontakty</h2>
                     <ul class="footer-list">
                         <a class="info__email" href="#">info@ccdk.cz</a>
                     </ul>
@@ -282,20 +284,7 @@
         </div>
     </footer>
     </div>
+
 </body>
 
 </html>
-<script>
-    var Swiper = new Swiper(".mySwiper", {
-        spaceBetween: 30,
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-        pagination: {
-            el: ".swiper-pagination",
-        },
-        mousewhell: true,
-        Keyboard: true
-    })
-</script>
